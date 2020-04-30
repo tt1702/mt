@@ -18,3 +18,7 @@ git status
 git log
 
 将git仓库上传到服务器
+先关联远程仓库
+git remote add origin 远程仓库的地址
+将本地仓库推送到远程服务器
+git push -u origin 分支名称
