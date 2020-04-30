@@ -16,3 +16,5 @@ git status
 
 查看当前git仓库的提交记录
 git log
+
+将git仓库上传到服务器
