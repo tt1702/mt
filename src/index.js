@@ -1,3 +1,5 @@
+const $ = require('jquery');
+
 var count = 0;
 function addCart() {
     var table = $(this).parents('table');
@@ -17,4 +19,6 @@ function addCart() {
 var btns = $('[name=buyBtn]');
 btns.each(function(){
     $(this).click(addCart);
-})
+});
+
+require('./index.css');
