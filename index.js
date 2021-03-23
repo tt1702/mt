@@ -14,7 +14,9 @@ function addCart() {
     alert("加入购物车成功！");
 }
 
-var btns = document.getElementsByName('buyBtn');
-for(let i=0;i<btns.length;i++){
-    btns[i].onclick = addCart;
-}
+(function(){
+    var btns = document.getElementsByName('buyBtn');
+    for(let i=0;i<btns.length;i++){
+        btns[i].onclick = addCart;
+    }
+})();
